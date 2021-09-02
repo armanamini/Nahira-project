@@ -1,0 +1,161 @@
+@import "fonts.css";
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: vazir;
+}
+.logo-content {
+
+    text-align: right;
+}
+/*.navbar-collapse{*/
+/*    margin-top: 31px;*/
+
+/*}*/
+
+.dermanito {
+    background-color: #E6F3FF;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.dermanito span {
+    color: #1894FF;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.nav-link {
+    color: black;
+}
+
+.article-content {
+    direction: rtl;
+}
+
+.svg-border {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 30px rgba(24, 148, 255, 0.16);
+}
+
+.svg-border ~ p {
+
+    position: absolute;
+top: 110%;
+
+}
+
+.rtl {
+    direction: rtl;
+}
+
+.round-card {
+    margin-bottom: 30px;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    box-sizing: content-box;
+    background-color: #fff;
+    border-radius: 22px;
+    box-shadow: 0px 0px 30px rgba(24, 148, 255, 0.16);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.round-card-grey {
+    box-shadow: 0px 0px 30px rgba(112, 112, 112, 0.20);
+
+}
+
+.grey-filter {
+    filter: grayscale(100%);
+}
+
+.detail {
+    position: relative;
+    top: -200px;
+    right: 50px;
+}
+
+.myContent {
+    position: relative;
+}
+
+.middle-svg {
+    margin-top: -50%;
+    margin-left: 30%;
+}
+
+.input-group {
+    border-radius: 5px;
+}
+
+.form-control {
+    height: 50px;
+}
+
+.application-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #2361B5;
+}
+
+.application-form {
+    position: absolute;
+    top: 40%;
+    right: 50px;
+}
+
+.application-btn img {
+    width: 100%;
+    height: auto;
+}
+
+.join-drug-store {
+    position: absolute;
+    top: 40%;
+    right: 170px;
+}
+@media (max-width: 750px) {
+    .join-drug-store {
+        position: absolute;
+        top: 25%;
+        right: 100px;
+    }
+    .join-drug-store h3 {
+   font-size: 1rem;
+    }
+    .join-drug-store p{
+        font-size: 0.5rem;
+    }
+}
+.join-drug-store input {
+    background-color: #F9F9F9;
+    border: none;
+    border-radius: 10px;
+}
+.right-border{
+    position: absolute;
+    right: 0;
+    width: 4px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #00DE9A;
+}
+.header-color{
+    color: #2361B5;
+}
